@@ -11,16 +11,16 @@ const object={
 }
 console.log(object['age'])
 
-console.log(typeof object[mysym]);
-console.log(object)
+// console.log(typeof object[mysym]);
+// console.log(object)
 
-object.greeting=function(){
-    console.log('this is function')
-}
+// object.greeting=function(){
+//     console.log('this is function')
+// }
 
-console.log(object.greeting());
+// console.log(object.greeting());
 
-object.greeting2=function(){
-    console.log(`this is function  ${this.name}`)
-}
-console.log(object.greeting2())
+// object.greeting2=function(){
+//     console.log(`this is function  ${this.name}`)
+// }
+// console.log(object.greeting2())
