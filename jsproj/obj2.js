@@ -35,8 +35,21 @@ const splash = { h: 8, n: 9 };
 // console.log(returnedTarget);
 
 
-console.log(singleobj)
-console.log(Object.keys(singleobj));
-console.log(Object.values(singleobj));
-console.log(Object.entries(singleobj));
-console.log(singleobj.hasOwnProperty('name'));
+// console.log(singleobj)
+// console.log(Object.keys(singleobj));
+// console.log(Object.values(singleobj));
+// console.log(Object.entries(singleobj));
+// console.log(singleobj.hasOwnProperty('name'));
+
+const course={
+    coursename:'js course',
+    price:'999',
+    coureinstructor:"sam"
+}
+
+const {coureinstructor,price,coursename}=course
+
+console.log(`${coureinstructor} `);
+console.log(`${price} `);
+console.log(`${coursename} `);
+
