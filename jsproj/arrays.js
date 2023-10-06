@@ -20,10 +20,14 @@ const dc_heros=['supermain','ironman','flash']
 // console.log(another_real);
 
 // console.log(Array.isArray('Bilaljutt'))
-// console.log(Array.from('Bilaljutt'))
+const val=Array.from('Bilaljutt')
+// console.log(val)
+for (const item of val) {
+    console.log(item)
+    
+}
+// let score1=100
+// let score2=200
+// let score3=300
 
-let score1=100
-let score2=200
-let score3=300
-
-console.log(Array.of(score1,score2,score3))
+// console.log(Array.of(score1,score2,score3))
