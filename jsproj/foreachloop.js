@@ -36,6 +36,9 @@ const mycoding=[
         age:33
     }
 ]
+// mycoding.forEach((item)=>{
+//     console.log(item['name']+'='+item['age'])
+// })
 mycoding.forEach((item)=>{
-    console.log(item['name'])
+    console.log(item)
 })
